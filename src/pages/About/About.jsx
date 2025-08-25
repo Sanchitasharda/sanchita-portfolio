@@ -24,32 +24,33 @@ export default function About() {
 
             <div className="relative space-y-4">
               <p className="text-white">
-                Hello! I'm Sanchita Sharda, a passionate JavaScript developer
+                Hello! I'm Sanchita Sharda, a passionate Java developer
                 specializing in creating innovative web solutions and
                 user-friendly interfaces.{" "}
                 <span className="font-bold text-white">
-                  As the creator of the OlovaJS UI Framework
+                  Being a fresher in this field
                 </span>
                 , I'm dedicated to simplifying development workflows.
               </p>
               <p className="text-white">
-                My focus is on making web development faster, easier, and
-                accessible to all developers. Currently, I'm expanding into
-                backend development to grow as a full-stack developer and create
-                seamless, robust web applications.
+                I’m passionate about creating web applications that are fast,
+                user-friendly, and accessible to everyone. Currently, I’m diving
+                deeper into backend development to become a well-rounded
+                full-stack developer, capable of building seamless and scalable
+                digital solutions.
               </p>
 
               <div className="pt-6">
                 <blockquote className="border-l-4 border-gray-300 pl-4">
                   <p className="text-white">
-                    I'm a lifelong learner and innovator, driven by a desire to
-                    contribute to the developer community with new ideas and
-                    tools that deliver real value. As the creator of OlovaJS,
-                    I'm pushing the boundaries of JavaScript frameworks to
-                    empower developers worldwide.
+                    I’m a lifelong learner who loves exploring new technologies
+                    and building meaningful solutions. From winning hackathons
+                    to developing projects like Dev-10 and a Chrome extension, I
+                    aim to create tools and applications that simplify
+                    development and deliver real value to users.
                   </p>
 
-                  <div className="mt-6 space-y-3">
+                  {/* <div className="mt-6 space-y-3">
                     <cite className="block font-medium text-white">
                       Nazmul Hossain, Creator of
                     </cite>
@@ -62,8 +63,8 @@ export default function About() {
                         width="auto"
                       />
                       <span className="text-white">OlovaJS</span>
-                    </div>
-                  </div>
+                    </div> */}
+                  {/* </div> */}
                 </blockquote>
               </div>
             </div>

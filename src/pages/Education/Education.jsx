@@ -15,24 +15,33 @@ const EducationSection = () => {
 
   const educationData = [
     {
-      degree: "Secondary School Certificate (SSC)",
-      school: "Natore Textile Institute",
+      degree: "Bachelors OF Computer Application (BCA)",
+      school:
+        "Jagan Institute of Management Studies, Rohini, Delhi, Affiliated to GGSIPU",
       mascot: "📘",
-      year: "2019-2021",
-      achievements: ["GPA: 4.89", "Subject: Science"],
-      skills: ["Mathematics", "Physics", "Chemistry", "Biology"],
+      year: "2022-2025",
+      achievements: [
+        "GPA: 8.9",
+        "Rank holder: 3rd Sem",
+        "Relevant Coursework: Data Structures, Web Development, Database Management",
+      ],
+      skills: ["Mathematics", "Java", "C++", "DSA"],
       description:
-        "Focused on core science subjects with emphasis on practical laboratory work and scientific research methodologies.",
+        "Focused on core practical coding subjects with emphasis on data structures.",
     },
     {
-      degree: "Higher Secondary Certificate (HSC)",
-      school: "Dottopara Model Degree College",
+      degree: "Senior Secondary Education",
+      school: "Sanatan Dharam Public School",
       mascot: "📗",
-      year: "2021-2023",
-      achievements: ["GPA: 4.25", "Subject: Arts"],
-      skills: ["Literature", "Social Studies", "Economics", "History"],
+      year: "2019-2022",
+      achievements: [
+        "10th %: 95.75%",
+        "12th %: 91%",
+        "Subject: Science(PCM +CS)",
+      ],
+      skills: ["Mathematics", "Physics", "Computer Science", "Python"],
       description:
-        "Developed strong analytical and critical thinking skills through comprehensive study of humanities and social sciences.",
+        "Developed strong analytical and critical thinking skills through comprehensive study of Science, Computer Science and Logical Reasoning.",
     },
   ];
 
