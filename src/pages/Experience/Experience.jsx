@@ -61,7 +61,7 @@ const ExperienceSection = () => {
     },
     {
       icon: Layers,
-      title: "Frontend Developer & QA Intern",
+      title: "Tech & QA Intern",
       company: "Rein Games Pvt. Ltd.  ",
       period: "Oct 2024 - April 2025",
       description:

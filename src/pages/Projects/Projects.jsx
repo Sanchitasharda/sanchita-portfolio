@@ -4,7 +4,7 @@ import { useRef, useEffect } from "react";
 import PropTypes from "prop-types";
 
 // --- AnimatedPlaceholder Component ---
-// This is the new component that creates the animated background.
+
 const AnimatedPlaceholder = ({ color }) => {
   return (
     <div className="relative w-full h-full overflow-hidden bg-zinc-900">
@@ -49,39 +49,35 @@ AnimatedPlaceholder.propTypes = {
 };
 
 // --- Project Data ---
-// I removed the 'src' and 'link' properties as they are no longer needed.
 const projects = [
-  {
-    title: "Olova! A Lightweight JavaScript Library",
-    description:
-      "A lightweight JavaScript library for creating beautiful, responsive UI components.",
-    color: "#5196fd",
-    githubLink: "https://github.com/olovajs/olova",
-    liveLink: "https://olova.js.org/",
-  },
   {
     title: "A sleek portfolio built with React and Tailwind CSS",
     description:
       "A sleek portfolio built with React and Tailwind CSS to showcase your skills, projects, and experience in a modern design.",
     color: "#8f89ff",
-    githubLink: "https://github.com/seraprogrammer/portfolio",
-    liveLink: "https://codervai.vercel.app",
+    githubLink: "https://github.com/Sanchitasharda/sanchita-portfolio.git",
   },
   {
-    title: "🚀 CodeWhisperer",
+    title: "🚀 Dev-10",
     description:
-      "🚀 CodeWhisperer A powerful online code editor built with React and Tailwind CSS. Featuring real-time code execution, syntax highlighting, multi-language support, and a sleek UI. Start coding instantly! 💻✨",
-    color: "#4ade80", // Changed color for better visibility
-    githubLink: "https://github.com/seraprogrammer/codewhisperer",
-    liveLink: "https://codewhisperer.vercel.app/",
+      "A comprehensive resource hub, made specifically for all types of experienced, as well as aspiring developers, using the MERN stack.",
+    color: "#4ade80",
+    githubLink: "https://github.com/Sanchitasharda/dev-10.git",
   },
   {
-    title: "CodeKori 🔥",
+    title: "Image Converter Chrome Extension",
     description:
-      "CodeKori is a powerful online code editor built with React and Tailwind CSS. Featuring real-time code execution, syntax highlighting, multi-language support, and a sleek UI. Start coding instantly! 💻✨",
+      "Built a Chrome extension for fast image conversion and editing (formats + brightness/contrast/saturation) using React, TypeScript, TailwindCSS, and WXT.",
+    color: "#5196fd",
+    githubLink:
+      "https://github.com/Sanchitasharda/image-converter-extension.git",
+  },
+  {
+    title: "Quote Generator",
+    description:
+      "A Random Quote Generator that displays dynamic quotes with each click, built using JavaScript, HTML, and CSS.",
     color: "#ed649e",
-    githubLink: "https://github.com/seraprogrammer/CodeKori",
-    liveLink: "https://codekori.js.org",
+    githubLink: "https://github.com/Sanchitasharda/quote-generator.git",
   },
 ];
 

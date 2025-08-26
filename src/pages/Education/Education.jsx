@@ -15,13 +15,13 @@ const EducationSection = () => {
 
   const educationData = [
     {
-      degree: "Bachelors OF Computer Application (BCA)",
+      degree: "Bachelors Of Computer Applications (BCA)",
       school:
         "Jagan Institute of Management Studies, Rohini, Delhi, Affiliated to GGSIPU",
       mascot: "📘",
       year: "2022-2025",
       achievements: [
-        "GPA: 8.9",
+        "GPA: 8.99",
         "Rank holder: 3rd Sem",
         "Relevant Coursework: Data Structures, Web Development, Database Management",
       ],
